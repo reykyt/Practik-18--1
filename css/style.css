@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/natura.jpg);
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.block {
+    background-color: aquamarine;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.one-block-big {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.mini {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: green;
+}
+
+.two-block-big {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.free-block-big {
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+}
